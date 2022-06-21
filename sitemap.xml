@@ -3,16 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2022-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/learning/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/swift/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/swift-notes/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/page/</loc>
     <lastmod>2022-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/projects/</loc>
     <lastmod>2022-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/css/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
@@ -26,13 +41,7 @@
     <loc>https://example.com/p/md-post-guide-collection/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/categories/syntax/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/test/</loc>
