@@ -6,10 +6,10 @@
         <description>Recent content in css on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MD post guide collection</title>
         <link>https://example.com/p/md-post-guide-collection/</link>
-        <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/p/md-post-guide-collection/</guid>
         <description>&lt;img src="https://example.com/p/md-post-guide-collection/20160708_093951491_iOS.jpg" alt="Featured image of post MD post guide collection" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
