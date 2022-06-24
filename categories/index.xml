@@ -7,12 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>iOS</title>
+        <link>https://felix-ku.github.io/categories/ios/</link>
+        <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/ios/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/ios/1.jpg" alt="Featured image of post iOS" /&gt;</description>
+        </item>
+        <item>
         <title>learning</title>
         <link>https://felix-ku.github.io/categories/learning/</link>
         <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/learning/</guid>
-        <description></description>
+        <description>&lt;img src="https://felix-ku.github.io/categories/learning/2.jpg" alt="Featured image of post learning" /&gt;</description>
+        </item>
+        <item>
+        <title>leetcode</title>
+        <link>https://felix-ku.github.io/categories/leetcode/</link>
+        <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/leetcode/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/leetcode/3.jpg" alt="Featured image of post leetcode" /&gt;</description>
         </item>
         <item>
         <title>syntax</title>
@@ -20,23 +36,7 @@
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://felix-ku.github.io/categories/test/</link>
-        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/categories/test/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>themes</title>
-        <link>https://felix-ku.github.io/categories/themes/</link>
-        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/categories/themes/</guid>
-        <description></description>
+        <description>&lt;img src="https://felix-ku.github.io/categories/syntax/4.jpg" alt="Featured image of post syntax" /&gt;</description>
         </item>
         
     </channel>
