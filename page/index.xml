@@ -2,37 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Stellaris</title>
-        <link>https://example.com/page/</link>
+        <link>https://felix-ku.github.io/page/</link>
         <description>Recent content in Pages on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sandbox</title>
+        <link>https://felix-ku.github.io/sandbox/</link>
+        <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/sandbox/</guid>
+        <description>&lt;p&gt;Some random sandbox experiments to test capability of tools&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Projects</title>
-        <link>https://example.com/projects/</link>
+        <link>https://felix-ku.github.io/projects/</link>
         <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/projects/</guid>
+        <guid>https://felix-ku.github.io/projects/</guid>
         <description>&lt;p&gt;Below shows some of the fun projects I created/helped with. Have Fun!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Archives</title>
-        <link>https://example.com/archives/</link>
+        <link>https://felix-ku.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://felix-ku.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>About Me</title>
-        <link>https://example.com/about-me/</link>
+        <link>https://felix-ku.github.io/about-me/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/about-me/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;&lt;img src=&#34;https://example.com/about-me/textfx.png&#34;
+        <guid>https://felix-ku.github.io/about-me/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;&lt;img src=&#34;https://felix-ku.github.io/about-me/textfx.png&#34;
 	width=&#34;800&#34;
 	height=&#34;138&#34;
-	srcset=&#34;https://example.com/about-me/textfx_hu644a56920579b5cc7949f0e2bdbdb951_83955_480x0_resize_box_3.png 480w, https://example.com/about-me/textfx_hu644a56920579b5cc7949f0e2bdbdb951_83955_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://felix-ku.github.io/about-me/textfx_hu644a56920579b5cc7949f0e2bdbdb951_83955_480x0_resize_box_3.png 480w, https://felix-ku.github.io/about-me/textfx_hu644a56920579b5cc7949f0e2bdbdb951_83955_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47,10 +56,10 @@
 &lt;p&gt;Hi, nice to meet you. I’m Felix. I spend my days tapping keyboards and Googling. I use Stack Overflow like Tinder to find soul mates who have faced the same programming problems as I do.&lt;/p&gt;
 &lt;p&gt;I have been lucky enough to work alongside amazing teams of talented people throughout the years. My goal is to create products that can put a smile on millions and influence billions. So if you are working on something cool, aiming to reshape the world, I am happy to be along for a ride (not only as a passenger, but as a co-driver of yours).&lt;/p&gt;
 &lt;h2 id=&#34;about-coding&#34;&gt;About Coding&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/about-me/e01b011b8ba4feadabb6b7b426091fd6.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6.jpg&#34;
 	width=&#34;578&#34;
 	height=&#34;960&#34;
-	srcset=&#34;https://example.com/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_480x0_resize_q75_box.jpg 480w, https://example.com/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;AMC - Breaking Bad&#34;
@@ -88,10 +97,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://example.com/search/</link>
+        <link>https://felix-ku.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://felix-ku.github.io/search/</guid>
         <description></description>
         </item>
         

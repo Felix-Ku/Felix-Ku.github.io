@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+/* body{
+  background-color: #080e24;
+}
+
+#universe {
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#galaxy {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#solar-system {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; }
+
+#solar-sys{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+}
+
+#sun {
+  
+	width: 50px;
+	height: 50px;
+	position: relative;
+	animation: sunpulse 5s alternate infinite;
+	border-radius: 50%;
+	background-image: radial-gradient(circle, #ffd200 95%, #f7971e);
+}
+
+
+#solar-sys *:hover {-webkit-animation-play-state: paused;} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1934;
+  overflow: hidden;
+}
+
+.planets{
+  position: relative;
+  --sun-color: #f39c12;
+  --earth-color: #3498db;
+  --moon-color: #d8fcf5;
+  --mercury-color: #a49f70;
+  --venus-color: #fafa58;
+  --mars-color: #fb9b41;
+  --juipter-color: #f6f0ba;
+  --saturn-color: #fffab3;
+  --uranus-color: #aaffee;
+  --neptune-color: #2c84c8;
+}
+
+.planets div{
+  position: absolute;
+  display: block;
+  box-shadow: 0 0 0 2px rgb(99, 99, 99);
+}
+
+.planets div span {
+  display: block;
+  position: absolute;
+  opacity: 1;
+}
+
+.sun{
+  opacity: 1;
+	box-shadow: 0px 0px 15px 3px #f39c12;
+	width: 100px;
+	height: 100px;
+	top: -50px;
+	left: -50px;
+	animation: sunpulse 2s alternate infinite;
+	border-radius: 50%;
+	background-image: radial-gradient(circle, #ffd200 95%, #f7971e);
+}
+
+@keyframes sunpulse {
+	from {
+		box-shadow: 0 0 100px #ff0, 0 0 100px #ff0;
+	}
+	to {
+		box-shadow: 0 0 25px #ff0, 0 0 75px #ff0;
+	}
+}
+
+.mercury{
+  height: 200px;
+  width: 200px;
+  left:-100px;
+  top:-100px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 15s infinite linear;
+}
+
+.mercury span {
+  left:24px;
+  top:24px;
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #a49f70;
+  box-shadow: 0px 0px 15px 1px #a49f70;
+}
+
+.mercury span .name {
+  left:24px;
+  top:24px;
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #a49f70;
+  box-shadow: 0px 0px 15px 1px #a49f70;
+}
+
+.venus{
+  height: 300px;
+  width: 300px;
+  left:-150px;
+  top:-150px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 22s infinite linear;
+}
+
+.venus span {
+  left:35px;
+  top:35px;
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fafa58;
+  box-shadow: 0px 0px 5px 0.5px #fafa58;
+}
+
+.earth{
+  height: 400px;
+  width: 400px;
+  left:-200px;
+  top:-200px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 36.5s infinite linear;
+}
+
+.earth span {
+  left:48px;
+  top:48px;
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3498db;
+  box-shadow: 0px 0px 15px 2px #3498db;
+}
+
+.moon{
+  height: 50px;
+  width: 50px;
+  left:33px;
+  top:33px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 12s infinite linear;
+}
+
+.moon span {
+  left:4px;
+  top:4px;
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #668192;
+  box-shadow: 0px 0px 15px 2px #3498db;
+}
+
+.mars{
+  height: 500px;
+  width: 500px;
+  left:-250px;
+  top:-250px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 50s infinite linear;
+}
+
+.mars span {
+  left:68px;
+  top:68px;
+  display: block;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fb9b41;
+  box-shadow: 0px 0px 15px 2px #fb9b41;
+}
+
+.juipter{
+  height: 650px;
+  width: 650px;
+  left:-325px;
+  top:-325px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 200s infinite linear;
+}
+
+.juipter span {
+  left:70px;
+  top:70px;
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f6f0ba;
+  box-shadow: 0px 0px 15px 2px #f6f0ba;
+}
+
+
+@keyframes rotate {
+  to{
+      transform: rotateZ(360deg);
+  }
+}

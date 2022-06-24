@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Stellaris</title>
-        <link>https://example.com/tags/</link>
+        <link>https://felix-ku.github.io/tags/</link>
         <description>Recent content in Tags on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Swift</title>
-        <link>https://example.com/tags/swift/</link>
+        <link>https://felix-ku.github.io/tags/swift/</link>
         <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/swift/</guid>
+        <guid>https://felix-ku.github.io/tags/swift/</guid>
         <description></description>
         </item>
         <item>
         <title>css</title>
-        <link>https://example.com/tags/css/</link>
+        <link>https://felix-ku.github.io/tags/css/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/css/</guid>
+        <guid>https://felix-ku.github.io/tags/css/</guid>
         <description></description>
         </item>
         <item>
         <title>html</title>
-        <link>https://example.com/tags/html/</link>
+        <link>https://felix-ku.github.io/tags/html/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/html/</guid>
+        <guid>https://felix-ku.github.io/tags/html/</guid>
         <description></description>
         </item>
         <item>
         <title>markdown</title>
-        <link>https://example.com/tags/markdown/</link>
+        <link>https://felix-ku.github.io/tags/markdown/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/markdown/</guid>
+        <guid>https://felix-ku.github.io/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
         <title>themes</title>
-        <link>https://example.com/tags/themes/</link>
+        <link>https://felix-ku.github.io/tags/themes/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/themes/</guid>
+        <guid>https://felix-ku.github.io/tags/themes/</guid>
         <description></description>
         </item>
         

@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Stellaris</title>
-        <link>https://example.com/categories/</link>
+        <link>https://felix-ku.github.io/categories/</link>
         <description>Recent content in Categories on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>learning</title>
-        <link>https://example.com/categories/learning/</link>
+        <link>https://felix-ku.github.io/categories/learning/</link>
         <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/learning/</guid>
+        <guid>https://felix-ku.github.io/categories/learning/</guid>
         <description></description>
         </item>
         <item>
         <title>syntax</title>
-        <link>https://example.com/categories/syntax/</link>
+        <link>https://felix-ku.github.io/categories/syntax/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/syntax/</guid>
+        <guid>https://felix-ku.github.io/categories/syntax/</guid>
         <description></description>
         </item>
         <item>
         <title>Test</title>
-        <link>https://example.com/categories/test/</link>
+        <link>https://felix-ku.github.io/categories/test/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/test/</guid>
+        <guid>https://felix-ku.github.io/categories/test/</guid>
         <description></description>
         </item>
         <item>
         <title>themes</title>
-        <link>https://example.com/categories/themes/</link>
+        <link>https://felix-ku.github.io/categories/themes/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/themes/</guid>
+        <guid>https://felix-ku.github.io/categories/themes/</guid>
         <description></description>
         </item>
         
