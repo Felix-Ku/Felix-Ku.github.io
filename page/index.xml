@@ -6,7 +6,16 @@
         <description>Recent content in Pages on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Links</title>
+        <link>https://felix-ku.github.io/links/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/links/</guid>
+        <description>&lt;p&gt;Some of the best blogs I have been reading in the past years:&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Sandbox</title>
         <link>https://felix-ku.github.io/sandbox/</link>
         <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
