@@ -373,7 +373,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -387,9 +387,12 @@
     <section class="article-content">
     
     
-    <p>This article records some notes about Swift &amp; SwiftUI.</p>
-<h2 id="unorganized">Unorganized</h2>
-<h3 id="structure">Structure</h3>
+    <p>Some learning notes about UIKit, Swift, SwiftUI and Objective-C.</p>
+<h2 id="basics">Basics</h2>
+<ul>
+<li>OOP</li>
+</ul>
+<h2 id="project-structure">Project Structure</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -398,9 +401,60 @@
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">View -&gt; Viewmodifiers -&gt; Viewmodifiers -&gt; …
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="state">@State</h3>
-<p>Creates pointer in memory, not necessarily making variable mutable</p>
-<h3 id="foreach">ForEach</h3>
+</div><h2 id="state--binding">@State &amp; @Binding</h2>
+<h3 id="-symbol">$ symbol</h3>
+<ul>
+<li>Binding</li>
+<li>e.g. in actionSheet, using $variable allows actionSheet update its value instead of solely reading its value</li>
+</ul>
+<h3 id="state">@State</h3>
+<ul>
+<li>Creates pointer in memory, not necessarily making variable mutable</li>
+<li>Views that listen to the @State variable will auto change their presentations according to the variable</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="p">@</span><span class="n">State</span> <span class="kd">private</span> <span class="kd">var</span> <span class="nv">restaurantIsFavorites</span><span class="p">:</span> <span class="nb">Bool</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="binding">@Binding</h3>
+<ul>
+<li>Require caller to pass in a $Variable
+Normal usage</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="p">@</span><span class="n">Binding</span> <span class="kd">private</span> <span class="kd">var</span> <span class="nv">isFavorite</span><span class="p">:</span> <span class="nb">Bool</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>With Object</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">Struct</span> <span class="n">Restaurant</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="p">@</span><span class="n">Binding</span> <span class="kd">var</span> <span class="nv">restaurant</span><span class="p">:</span> <span class="n">Restaurant</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="foreach">ForEach</h2>
 <p>The target should contain identifiable “unique” items
 (String normally considered as not identifiable, since two string might look the same but are used to identify different stuff)</p>
 <p>To force foreach to think each the element are identifiable</p>
@@ -409,10 +463,76 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">id</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="kc">self</span>
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">id</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="kc">self</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="symbols--icons">Symbols &amp; Icons</h3>
+</div><h3 id="different-foreach-list-method">Different ForEach list method</h3>
+<p>Assume there is a list:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">RestaurantList</span> <span class="p">=</span> <span class="p">[</span><span class="s">&#34;&#34;</span><span class="p">,</span><span class="s">&#34;&#34;</span><span class="p">,</span><span class="s">&#34;&#34;</span><span class="p">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>From 0 to end of list</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">ForEach</span><span class="p">(</span><span class="mf">0.</span><span class="p">..</span><span class="n">RestaurantList</span><span class="p">.</span><span class="bp">count</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">id</span><span class="p">:</span><span class="err">\</span><span class="p">.</span><span class="kc">self</span><span class="p">){</span> <span class="n">index</span> <span class="k">in</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>For indices</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">ForEach</span><span class="p">(</span><span class="n">RestaurantList</span><span class="p">.</span><span class="bp">indices</span><span class="p">,</span> <span class="n">id</span><span class="p">:</span><span class="err">\</span><span class="p">.</span><span class="kc">self</span><span class="p">){</span> <span class="n">index</span> <span class="k">in</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>For all items in the list</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">ForEach</span><span class="p">(</span><span class="n">RestaurantList</span><span class="p">,</span> <span class="n">id</span><span class="p">:</span><span class="err">\</span><span class="p">.</span><span class="kc">self</span><span class="p">){</span> <span class="n">Restaurants</span> <span class="k">in</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Normal number for each</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">ForEach</span><span class="p">(</span><span class="mf">1.</span><span class="p">..</span><span class="mi">4</span><span class="p">,</span> <span class="n">id</span><span class="p">:</span><span class="err">\</span><span class="p">.</span><span class="kc">self</span><span class="p">){</span> <span class="n">Restaurants</span> <span class="k">in</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Remark:</p>
+<ul>
+<li>Swift uses three dots &ldquo;&hellip;&rdquo; instead of &ldquo;..&rdquo;</li>
+</ul>
+<h2 id="symbols--icons">Symbols &amp; Icons</h2>
 <p>Download SF symbols
 Sample usage:</p>
 <div class="highlight"><div class="chroma">
@@ -423,13 +543,13 @@ Sample usage:</p>
 <pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;ICON_NAME&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="factoring-out-bricks">Factoring out bricks</h3>
+</div><h2 id="factoring-out-bricks">Factoring out bricks</h2>
 <p>a. New VIEW struct
 b. Var some view</p>
-<h3 id="grid">Grid</h3>
+<h2 id="grid">Grid</h2>
 <p>LazyVGrid (Makes as small as possible to fit more)
 Other stacks (Use up all available spaces)</p>
-<h3 id="other">Other</h3>
+<h2 id="other">Other</h2>
 <p>To take all open space available that no one want</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -446,6 +566,138 @@ Other stacks (Use up all available spaces)</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">aspectRatio</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="n">contentMode</span><span class="p">:.</span><span class="n">fit</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="classes-and-structures">Classes and Structures</h2>
+<p>Class</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Plane</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">brand</span> <span class="p">=</span> <span class="s">&#34;Airbus&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">plane1</span> <span class="p">=</span> <span class="n">Plane</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">plane2</span> <span class="p">=</span> <span class="n">plane</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="n">plane1</span><span class="p">.</span><span class="n">brand</span> <span class="p">=</span> <span class="s">&#34;Boeing&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="bp">print</span> <span class="p">(</span><span class="n">plan2</span><span class="p">.</span><span class="n">brand</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Output -&gt; Boeing</p>
+<p>Structure</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Plane</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">brand</span> <span class="p">=</span> <span class="s">&#34;Airbus&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">plane1</span> <span class="p">=</span> <span class="n">Plane</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">plane2</span> <span class="p">=</span> <span class="n">plane</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="n">plane1</span><span class="p">.</span><span class="n">brand</span> <span class="p">=</span> <span class="s">&#34;Boeing&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="bp">print</span> <span class="p">(</span><span class="n">plan2</span><span class="p">.</span><span class="n">brand</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Output -&gt; Airbus</p>
+<h2 id="new-struct">New struct</h2>
+<p>Similar to what Java does</p>
+<h3 id="1-create-new-struct-better-in-new-swift-file">1. Create new struct (better in new Swift file)</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">STRUCT_NAME</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">name</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">type</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">// For passing value to initialize</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">init</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span><span class="n">type</span><span class="p">:</span> <span class="nb">String</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">self</span><span class="p">.</span><span class="n">name</span> <span class="p">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">self</span><span class="p">.</span><span class="n">type</span> <span class="p">=</span> <span class="n">type</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">// For initialize with default values</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">init</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">self</span><span class="p">.</span><span class="kd">init</span><span class="p">(</span><span class="n">name</span><span class="p">:</span><span class="s">&#34;&#34;</span><span class="p">,</span><span class="n">type</span><span class="p">:</span><span class="s">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-initialize">2. Initialize</h3>
+<p>In normal case</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">Let</span> <span class="n">STRUE_VARIABLE_DEFAULT</span> <span class="p">=</span> <span class="n">STRUCT_NAME</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">Let</span> <span class="n">STRUE_VARIABLE_A</span> <span class="p">=</span> <span class="n">STRUCT_NAME</span><span class="p">(</span><span class="n">name</span><span class="p">:</span><span class="s">&#34;A&#34;</span><span class="p">,</span> <span class="n">type</span><span class="p">:</span><span class="s">&#34;1&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>If the struct needs to have $Variable, a list of it will be:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="p">@</span><span class="n">State</span> <span class="kd">var</span> <span class="nv">LIST_OF_STRUCT</span> <span class="p">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="n">STRUCT_NAME</span><span class="p">(</span><span class="n">name</span><span class="p">:</span><span class="s">&#34;A&#34;</span><span class="p">,</span> <span class="n">type</span><span class="p">:</span><span class="s">&#34;1&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">STRUCT_NAME</span><span class="p">(</span><span class="n">name</span><span class="p">:</span><span class="s">&#34;B&#34;</span><span class="p">,</span> <span class="n">type</span><span class="p">:</span><span class="s">&#34;2&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="comment">Comment</h2>
+<p>Standard comment</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="c1">//</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>To create sections in code</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="c1">// Mark: - SECTION_NAME</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -690,17 +942,32 @@ Other stacks (Use up all available spaces)</p>
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#unorganized">Unorganized</a>
+    <li><a href="#basics">Basics</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#state--binding">@State &amp; @Binding</a>
       <ol>
-        <li><a href="#structure">Structure</a></li>
+        <li><a href="#-symbol">$ symbol</a></li>
         <li><a href="#state">@State</a></li>
-        <li><a href="#foreach">ForEach</a></li>
-        <li><a href="#symbols--icons">Symbols &amp; Icons</a></li>
-        <li><a href="#factoring-out-bricks">Factoring out bricks</a></li>
-        <li><a href="#grid">Grid</a></li>
-        <li><a href="#other">Other</a></li>
+        <li><a href="#binding">@Binding</a></li>
       </ol>
     </li>
+    <li><a href="#foreach">ForEach</a>
+      <ol>
+        <li><a href="#different-foreach-list-method">Different ForEach list method</a></li>
+      </ol>
+    </li>
+    <li><a href="#symbols--icons">Symbols &amp; Icons</a></li>
+    <li><a href="#factoring-out-bricks">Factoring out bricks</a></li>
+    <li><a href="#grid">Grid</a></li>
+    <li><a href="#other">Other</a></li>
+    <li><a href="#classes-and-structures">Classes and Structures</a></li>
+    <li><a href="#new-struct">New struct</a>
+      <ol>
+        <li><a href="#1-create-new-struct-better-in-new-swift-file">1. Create new struct (better in new Swift file)</a></li>
+        <li><a href="#2-initialize">2. Initialize</a></li>
+      </ol>
+    </li>
+    <li><a href="#comment">Comment</a></li>
   </ol>
 </nav>
         </div>
