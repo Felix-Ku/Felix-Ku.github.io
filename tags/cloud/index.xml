@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cloud on Stellaris</title>
+        <link>https://felix-ku.github.io/tags/cloud/</link>
+        <description>Recent content in Cloud on Stellaris</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Notes on Cloud (GCloud)</title>
+        <link>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</link>
+        <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</guid>
+        <description>&lt;p&gt;Some past notes on learning GCloud&lt;/p&gt;
+&lt;h1 id=&#34;cloud-in-business&#34;&gt;Cloud in business &lt;/h1&gt;
+&lt;h1 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Why? &lt;/li&gt;
+&lt;li&gt;3 rules 
+&lt;ul&gt;
+&lt;li&gt;Focusing on user &lt;/li&gt;
+&lt;li&gt;10x thinking &lt;/li&gt;
+&lt;li&gt;Empowered to innovate &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example 
+&lt;ul&gt;
+&lt;li&gt;Cold call insurance company employee 
+&lt;ul&gt;
+&lt;li&gt;Why? 
+&lt;ul&gt;
+&lt;li&gt;Enable people to live their lives feeling financially secure and optimally prepared for lie&amp;rsquo;s inherent ups and downs &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 rules 
+&lt;ul&gt;
+&lt;li&gt;Focusing on user 
+&lt;ul&gt;
+&lt;li&gt;Discovering user&amp;rsquo;s real needs and intent &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;10x thinking &lt;/li&gt;
+&lt;li&gt;Empowered to innovate &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;concepts-for-companies&#34;&gt;Concepts for companies&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Your organization&amp;rsquo;s mission &lt;/li&gt;
+&lt;li&gt;Who is your user &lt;/li&gt;
+&lt;li&gt;What are some ways you&amp;rsquo;re focusing on their expectations and meeting those expectations in your day-to-day activities &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-considerations&#34;&gt;Other considerations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Security 
+&lt;ul&gt;
+&lt;li&gt;How&amp;rsquo;s been collected &lt;/li&gt;
+&lt;li&gt;How&amp;rsquo;s been stored &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Privacy &lt;/li&gt;
+&lt;li&gt;Compliance &lt;/li&gt;
+&lt;li&gt;Ethics &lt;/li&gt;
+&lt;li&gt;Human bias 
+&lt;ul&gt;
+&lt;li&gt;Important to incorporate strategy to eliminate unconcious biases &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;data&#34;&gt;Data&lt;/h1&gt;
+&lt;h2 id=&#34;data-sets&#34;&gt;Data sets&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User data &lt;/li&gt;
+&lt;li&gt;Corporate data &lt;/li&gt;
+&lt;li&gt;Industry data &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-types&#34;&gt;Data types&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Structured data &lt;/li&gt;
+&lt;li&gt;Unstructured data 
+&lt;ul&gt;
+&lt;li&gt;Unorganized &lt;/li&gt;
+&lt;li&gt;Qualitatives &lt;/li&gt;
+&lt;li&gt;Cannot fit into spreedsheets &lt;/li&gt;
+&lt;li&gt;Examples 
+&lt;ul&gt;
+&lt;li&gt;Word processing documents &lt;/li&gt;
+&lt;li&gt;Audio files &lt;/li&gt;
+&lt;li&gt;Images &lt;/li&gt;
+&lt;li&gt;Videos &lt;/li&gt;
+&lt;li&gt;BLOB &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage 
+&lt;ul&gt;
+&lt;li&gt;Cloud computing through API can structurlize unconstructure data 
+&lt;ul&gt;
+&lt;li&gt;Example 
+&lt;ul&gt;
+&lt;li&gt;Bloomberg uses Google Translate API to translate analysis reports from journelists all around the world into local language &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;data-consolidation-and-analytics&#34;&gt;Data Consolidation and Analytics &lt;/h1&gt;
+&lt;h2 id=&#34;traditional-vs-cloud&#34;&gt;Traditional vs Cloud &lt;/h2&gt;
+&lt;p&gt;Traditional (Storing in premises) &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsible for IT infrastucture &lt;/li&gt;
+&lt;li&gt;Responsible for maintaining and expanding capacity &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-management&#34;&gt;Data management &lt;/h2&gt;
+&lt;p&gt;Priorities: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data integrity 
+&lt;ul&gt;
+&lt;li&gt;Rollback integrity &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data scale 
+&lt;ul&gt;
+&lt;li&gt;Scalibility 
+ 
+Services &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud SQL &lt;/li&gt;
+&lt;li&gt;Cloud spanner 
+ 
+Cloud storage solutions: &lt;/li&gt;
+&lt;li&gt;Databases 
+&lt;ul&gt;
+&lt;li&gt;Ingest large amounts of data from many different sources efficiently &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data warehouse 
+&lt;ul&gt;
+&lt;li&gt;Enable rapid analysis of large and multidimensional datasets &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data lakes 
+&lt;ul&gt;
+&lt;li&gt;Can store structured, semi-structured, and unstructured data 
+ 
+Benefits: &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Any amount of data &lt;/li&gt;
+&lt;li&gt;Low latencey &lt;/li&gt;
+&lt;li&gt;Accessible from anywhere 
+ 
+Storage types: &lt;/li&gt;
+&lt;li&gt;Nearline storage 
+&lt;ul&gt;
+&lt;li&gt;Rarely access &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Coldline storage 
+&lt;ul&gt;
+&lt;li&gt;Once per few weeks &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Archive 
+&lt;ul&gt;
+&lt;li&gt;At least once a year &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;business-intelligence-solutions&#34;&gt;Business intelligence solutions &lt;/h1&gt;
+&lt;p&gt;Challenge: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hard to identify the right business intelligence tools 
+Services: &lt;/li&gt;
+&lt;li&gt;Google Looker 
+&lt;ul&gt;
+&lt;li&gt;Makes it simple to describe your data and define business metrics &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;infrastructure-modernization&#34;&gt;Infrastructure modernization &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Infrastructure as service &lt;/li&gt;
+&lt;li&gt;Outsourcing IT needs at infrastructure level &lt;/li&gt;
+&lt;li&gt;Platform as service &lt;/li&gt;
+&lt;li&gt;Don’t have to manage infrastructure and only pay for what you use 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technology&#34;&gt;Technology &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Virtual machine 
+&lt;ul&gt;
+&lt;li&gt;Hypervisor (VMM) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Serverless computing &lt;/li&gt;
+&lt;li&gt;Container &lt;/li&gt;
+&lt;li&gt;Cloud types 
+&lt;ul&gt;
+&lt;li&gt;Private cloud &lt;/li&gt;
+&lt;li&gt;Hybrid cloud &lt;/li&gt;
+&lt;li&gt;Multi cloud &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bare Metal 
+&lt;ul&gt;
+&lt;li&gt;Bare Metal enables you to migrate specialized workloads to the cloud, while &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;maintaining your existing investments and architecture. This allows you access and integration with Google Cloud services with minimal latency. &lt;/li&gt;
+&lt;li&gt;Google Kubernets Engine (GKE) 
+&lt;ul&gt;
+&lt;li&gt;Provides managed environment for deploying, managing, and scaling containerized applications &lt;/li&gt;
+&lt;li&gt;Allows securely speed up app development streamline operations, and manage infrastructure &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Google app engine 
+&lt;ul&gt;
+&lt;li&gt;Cloud Run &lt;/li&gt;
+&lt;li&gt;Cloud Functions 
+&lt;ul&gt;
+&lt;li&gt;Scalable, pay-as-you-go functions as service to run code with zero server management 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;five-patterns&#34;&gt;Five patterns &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Move applications first then change them &lt;/li&gt;
+&lt;li&gt;Change applications first then move them &lt;/li&gt;
+&lt;li&gt;Invent in greenfield &lt;/li&gt;
+&lt;li&gt;Invent in brownfield 
+&lt;ul&gt;
+&lt;li&gt;Build new application (Cloud native) in cloud to replace legacy application &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Move applications without any changes &lt;/li&gt;
+&lt;li&gt;Microservice Architecture 
+&lt;ul&gt;
+&lt;li&gt;Reduces problems by separating large application into small 
+&lt;ul&gt;
+&lt;li&gt;Helps to determine where code needs to be changed &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CI/CD 
+&lt;ul&gt;
+&lt;li&gt;Continuous intergration + Continuous deployment &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;api&#34;&gt;API&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api.jpg&#34;
+	width=&#34;1153&#34;
+	height=&#34;586&#34;
+	srcset=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api_hu3b423f3e50d05673006957c7d4e5d0b9_84751_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-cloud-gcloud/api_hu3b423f3e50d05673006957c7d4e5d0b9_84751_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Google Cloud API&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;472px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;financial-governance&#34;&gt;Financial Governance &lt;/h2&gt;
+&lt;p&gt;Three lens: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;People 
+&lt;ul&gt;
+&lt;li&gt;Cooperate and manage costs &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Process &lt;/li&gt;
+&lt;li&gt;Technology 
+&lt;ul&gt;
+&lt;li&gt;Google cloud 
+&lt;ul&gt;
+&lt;li&gt;Visibility 
+&lt;ul&gt;
+&lt;li&gt;Into predicted cloud costs 
+&lt;ul&gt;
+&lt;li&gt;Built-in reporting tools &lt;/li&gt;
+&lt;li&gt;Custom dashboards &lt;/li&gt;
+&lt;li&gt;Pricing calculator &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Accountability 
+&lt;ul&gt;
+&lt;li&gt;Define clear ownership for projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Control 
+&lt;ul&gt;
+&lt;li&gt;Set permissions in place to ensure only authorized individuals have power &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Intelligence 
+&lt;ul&gt;
+&lt;li&gt;Smart spending decisions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
