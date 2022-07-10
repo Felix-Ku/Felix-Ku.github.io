@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>UX on Stellaris</title>
+        <link>https://felix-ku.github.io/tags/ux/</link>
+        <description>Recent content in UX on Stellaris</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/tags/ux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Notes on UX design</title>
+        <link>https://felix-ku.github.io/p/notes-on-ux-design/</link>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/p/notes-on-ux-design/</guid>
+        <description>&lt;p&gt;Some past notes from Google Professional course on UX design&lt;/p&gt;
+&lt;h2 id=&#34;roles&#34;&gt;Roles &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Entry-level 
+&lt;ul&gt;
+&lt;li&gt;Research &lt;/li&gt;
+&lt;li&gt;Wireframe &lt;/li&gt;
+&lt;li&gt;Prototype &lt;/li&gt;
+&lt;li&gt;Creating information architecture &lt;/li&gt;
+&lt;li&gt;Communicating effectively &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interaction designer &lt;/li&gt;
+&lt;li&gt;Visual designer &lt;/li&gt;
+&lt;li&gt;Motion designer &lt;/li&gt;
+&lt;li&gt;UX researcher &lt;/li&gt;
+&lt;li&gt;UX writer &lt;/li&gt;
+&lt;li&gt;UX program manager &lt;/li&gt;
+&lt;li&gt;UX engineer &lt;/li&gt;
+&lt;li&gt;Conversation designer 
+ 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skill-types&#34;&gt;Skill types &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Specialists &lt;/li&gt;
+&lt;li&gt;Generalist &lt;/li&gt;
+&lt;li&gt;T-shaped 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;user-experience&#34;&gt;User experience &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How a person, the user, feels about interacting with or experiencing a product 
+&lt;ul&gt;
+&lt;li&gt;Usable 
+&lt;ul&gt;
+&lt;li&gt;Clear and easy to use &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Equitable 
+&lt;ul&gt;
+&lt;li&gt;Address needs of people with diverse abilities and background &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enjoyable 
+&lt;ul&gt;
+&lt;li&gt;Postive connections with users and inspire positive reaction from users &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Useful 
+&lt;ul&gt;
+&lt;li&gt;Solves user problems &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Business value 
+&lt;ul&gt;
+&lt;li&gt;Good experience leads to more users and recommendations 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;design-process&#34;&gt;Design process &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand &lt;/li&gt;
+&lt;li&gt;Specify &lt;/li&gt;
+&lt;li&gt;Design &lt;/li&gt;
+&lt;li&gt;Evaluate 
+ 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;product-development-life-cycle&#34;&gt;Product development life cycle &lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-ux-design/cycle.jpg&#34;
+	width=&#34;587&#34;
+	height=&#34;599&#34;
+	srcset=&#34;https://felix-ku.github.io/p/notes-on-ux-design/cycle_hu4097f2c370f46d75f7dd1b31e68958df_64592_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-ux-design/cycle_hu4097f2c370f46d75f7dd1b31e68958df_64592_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Cycle&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;97&#34;
+		data-flex-basis=&#34;235px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brainstorm: 
+&lt;ul&gt;
+&lt;li&gt;Know the user problem want to solve and have ideas &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Define: 
+&lt;ul&gt;
+&lt;li&gt;Figure out specifications for the product &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Design: 
+&lt;ul&gt;
+&lt;li&gt;Wireframe prototypes &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Test 
+&lt;ul&gt;
+&lt;li&gt;Internal test &lt;/li&gt;
+&lt;li&gt;Stakeholder test &lt;/li&gt;
+&lt;li&gt;Potential user test &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Launch: 
+&lt;ul&gt;
+&lt;li&gt;Go live! 
+ 
+ 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-frameworks&#34;&gt;Key frameworks &lt;/h2&gt;
+&lt;h3 id=&#34;five-elements-framework&#34;&gt;Five elements framework &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Turn idea into working product 
+&lt;ul&gt;
+&lt;li&gt;Strategy &lt;/li&gt;
+&lt;li&gt;Scope 
+&lt;ul&gt;
+&lt;li&gt;Determine features &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Structure 
+&lt;ul&gt;
+&lt;li&gt;Figure out how to organize design and how users interacts &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Skeleton &lt;/li&gt;
+&lt;li&gt;Surface 
+&lt;ul&gt;
+&lt;li&gt;Where users see &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-ux-design/5frame.jpg&#34;
+	width=&#34;809&#34;
+	height=&#34;614&#34;
+	srcset=&#34;https://felix-ku.github.io/p/notes-on-ux-design/5frame_hu2d7b701b811c01eaebe66150a4d68f2d_69227_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-ux-design/5frame_hu2d7b701b811c01eaebe66150a4d68f2d_69227_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;5 layers of framework&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;
+ &lt;/p&gt;
+&lt;h2 id=&#34;design-thinking-framework&#34;&gt;Design thinking framework &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create solutions that address problems  
+&lt;ul&gt;
+&lt;li&gt;Empathize 
+&lt;ul&gt;
+&lt;li&gt;Think and feel like users &lt;/li&gt;
+&lt;li&gt;Through research, interviews… &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Define 
+&lt;ul&gt;
+&lt;li&gt;Problem statement &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ideate 
+&lt;ul&gt;
+&lt;li&gt;Come up ideas (Focus on quantity) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prototype &lt;/li&gt;
+&lt;li&gt;Test &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-ux-design/dframe.jpg&#34;
+	width=&#34;892&#34;
+	height=&#34;267&#34;
+	srcset=&#34;https://felix-ku.github.io/p/notes-on-ux-design/dframe_hu918e015462f770cfd1c6e771b7e2d3d8_43231_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-ux-design/dframe_hu918e015462f770cfd1c6e771b7e2d3d8_43231_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Design thinking framework&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;334&#34;
+		data-flex-basis=&#34;801px&#34;
+	
+&gt;
+ &lt;/p&gt;
+&lt;h2 id=&#34;challenges&#34;&gt;Challenges &lt;/h2&gt;
+&lt;h3 id=&#34;issues-of-users&#34;&gt;Issues of users &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cost 
+&lt;ul&gt;
+&lt;li&gt;May not afford good device &lt;/li&gt;
+&lt;li&gt;ram &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Connectivity 
+&lt;ul&gt;
+&lt;li&gt;Continuous access to internet &lt;/li&gt;
+&lt;li&gt;Giving ability for user to load offline &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Digital literacy 
+&lt;ul&gt;
+&lt;li&gt;Clear guidance &lt;/li&gt;
+&lt;li&gt;Video tutorials &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Literacy 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;accesibility&#34;&gt;Accesibility&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Major 4 types 
+&lt;ul&gt;
+&lt;li&gt;Cognitive &lt;/li&gt;
+&lt;li&gt;Visual &lt;/li&gt;
+&lt;li&gt;Motor &lt;/li&gt;
+&lt;li&gt;deaf or hard of hearing &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Status 
+&lt;ul&gt;
+&lt;li&gt;Permanent &lt;/li&gt;
+&lt;li&gt;Temporary &lt;/li&gt;
+&lt;li&gt;Situational &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Equity focused design 
+ 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ux-design-tools&#34;&gt;UX design tools &lt;/h2&gt;
+&lt;h3 id=&#34;wireframe-and-prototyping-tools&#34;&gt;Wireframe and prototyping tools &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Figma &lt;/li&gt;
+&lt;li&gt;Adobe XD &lt;/li&gt;
+&lt;li&gt;Sketch &lt;/li&gt;
+&lt;li&gt;Framer 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;presentation-tools&#34;&gt;Presentation tools &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google slides &lt;/li&gt;
+&lt;li&gt;Powerpoint &lt;/li&gt;
+&lt;li&gt;Keynote 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;image-creation-tools&#34;&gt;Image creation tools &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;illustrator &lt;/li&gt;
+&lt;li&gt;Photoshop 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;animation-tools&#34;&gt;Animation tools &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lottie &lt;/li&gt;
+&lt;li&gt;Aftereffect 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Usability test &lt;/li&gt;
+&lt;li&gt;Interview &lt;/li&gt;
+&lt;li&gt;Survey &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-ux-design/user.jpg&#34;
+	width=&#34;486&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://felix-ku.github.io/p/notes-on-ux-design/user_hu46ad5942dd93e61f7e725fd59a64ce52_64221_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-ux-design/user_hu46ad5942dd93e61f7e725fd59a64ce52_64221_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;More about Users&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+ &lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
