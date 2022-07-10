@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>GCloud</title>
-        <link>https://felix-ku.github.io/categories/gcloud/</link>
+        <title>Cloud</title>
+        <link>https://felix-ku.github.io/categories/cloud/</link>
         <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://felix-ku.github.io/categories/gcloud/</guid>
-        <description></description>
+        <guid>https://felix-ku.github.io/categories/cloud/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/cloud/cloud.jpg" alt="Featured image of post Cloud" /&gt;</description>
         </item>
         <item>
         <title>learning</title>
@@ -23,12 +23,12 @@
         <description>&lt;img src="https://felix-ku.github.io/categories/learning/2.jpg" alt="Featured image of post learning" /&gt;</description>
         </item>
         <item>
-        <title>JAVA</title>
+        <title>Java</title>
         <link>https://felix-ku.github.io/categories/java/</link>
         <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/java/</guid>
-        <description></description>
+        <description>&lt;img src="https://felix-ku.github.io/categories/java/cat-java.jpg" alt="Featured image of post Java" /&gt;</description>
         </item>
         <item>
         <title>UX</title>
@@ -36,7 +36,7 @@
         <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/ux/</guid>
-        <description></description>
+        <description>&lt;img src="https://felix-ku.github.io/categories/ux/cat-ux.jpg" alt="Featured image of post UX" /&gt;</description>
         </item>
         <item>
         <title>leetcode</title>
@@ -53,6 +53,30 @@
         
         <guid>https://felix-ku.github.io/categories/ios/</guid>
         <description>&lt;img src="https://felix-ku.github.io/categories/ios/1.jpg" alt="Featured image of post iOS" /&gt;</description>
+        </item>
+        <item>
+        <title>Japanese</title>
+        <link>https://felix-ku.github.io/categories/japanese/</link>
+        <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/japanese/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/japanese/cat-jp.jpg" alt="Featured image of post Japanese" /&gt;</description>
+        </item>
+        <item>
+        <title>Language</title>
+        <link>https://felix-ku.github.io/categories/language/</link>
+        <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/language/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/language/cat-lang.jpg" alt="Featured image of post Language" /&gt;</description>
+        </item>
+        <item>
+        <title>Product</title>
+        <link>https://felix-ku.github.io/categories/product/</link>
+        <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/product/</guid>
+        <description></description>
         </item>
         <item>
         <title>syntax</title>
