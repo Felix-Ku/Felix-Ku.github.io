@@ -13,8 +13,8 @@
         
         <guid>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</guid>
         <description>&lt;p&gt;Some past notes on learning GCloud&lt;/p&gt;
-&lt;h1 id=&#34;cloud-in-business&#34;&gt;Cloud in business &lt;/h1&gt;
-&lt;h1 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h1&gt;
+&lt;h2 id=&#34;cloud-in-business&#34;&gt;Cloud in business &lt;/h2&gt;
+&lt;h2 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Why? &lt;/li&gt;
 &lt;li&gt;3 rules 
@@ -49,13 +49,13 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;concepts-for-companies&#34;&gt;Concepts for companies&lt;/h1&gt;
+&lt;h2 id=&#34;concepts-for-companies&#34;&gt;Concepts for companies&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Your organization&amp;rsquo;s mission &lt;/li&gt;
 &lt;li&gt;Who is your user &lt;/li&gt;
 &lt;li&gt;What are some ways you&amp;rsquo;re focusing on their expectations and meeting those expectations in your day-to-day activities &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;other-considerations&#34;&gt;Other considerations&lt;/h2&gt;
+&lt;h3 id=&#34;other-considerations&#34;&gt;Other considerations&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Security 
 &lt;ul&gt;
@@ -72,14 +72,14 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;data&#34;&gt;Data&lt;/h1&gt;
-&lt;h2 id=&#34;data-sets&#34;&gt;Data sets&lt;/h2&gt;
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;h3 id=&#34;data-sets&#34;&gt;Data sets&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;User data &lt;/li&gt;
 &lt;li&gt;Corporate data &lt;/li&gt;
 &lt;li&gt;Industry data &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;data-types&#34;&gt;Data types&lt;/h2&gt;
+&lt;h3 id=&#34;data-types&#34;&gt;Data types&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Structured data &lt;/li&gt;
 &lt;li&gt;Unstructured data 
@@ -112,14 +112,14 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;data-consolidation-and-analytics&#34;&gt;Data Consolidation and Analytics &lt;/h1&gt;
-&lt;h2 id=&#34;traditional-vs-cloud&#34;&gt;Traditional vs Cloud &lt;/h2&gt;
+&lt;h2 id=&#34;data-consolidation-and-analytics&#34;&gt;Data Consolidation and Analytics &lt;/h2&gt;
+&lt;h3 id=&#34;traditional-vs-cloud&#34;&gt;Traditional vs Cloud &lt;/h3&gt;
 &lt;p&gt;Traditional (Storing in premises) &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Responsible for IT infrastucture &lt;/li&gt;
 &lt;li&gt;Responsible for maintaining and expanding capacity &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;data-management&#34;&gt;Data management &lt;/h2&gt;
+&lt;h3 id=&#34;data-management&#34;&gt;Data management &lt;/h3&gt;
 &lt;p&gt;Priorities: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Data integrity 
@@ -176,7 +176,7 @@ Storage types: &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;business-intelligence-solutions&#34;&gt;Business intelligence solutions &lt;/h1&gt;
+&lt;h2 id=&#34;business-intelligence-solutions&#34;&gt;Business intelligence solutions &lt;/h2&gt;
 &lt;p&gt;Challenge: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hard to identify the right business intelligence tools 
@@ -187,7 +187,7 @@ Services: &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;infrastructure-modernization&#34;&gt;Infrastructure modernization &lt;/h1&gt;
+&lt;h2 id=&#34;infrastructure-modernization&#34;&gt;Infrastructure modernization &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Infrastructure as service &lt;/li&gt;
 &lt;li&gt;Outsourcing IT needs at infrastructure level &lt;/li&gt;
@@ -195,7 +195,7 @@ Services: &lt;/li&gt;
 &lt;li&gt;Don’t have to manage infrastructure and only pay for what you use 
  &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;technology&#34;&gt;Technology &lt;/h2&gt;
+&lt;h3 id=&#34;technology&#34;&gt;Technology &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Virtual machine 
 &lt;ul&gt;
@@ -235,7 +235,7 @@ Services: &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;five-patterns&#34;&gt;Five patterns &lt;/h2&gt;
+&lt;h3 id=&#34;five-patterns&#34;&gt;Five patterns &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Move applications first then change them &lt;/li&gt;
 &lt;li&gt;Change applications first then move them &lt;/li&gt;
@@ -261,7 +261,7 @@ Services: &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;api&#34;&gt;API&lt;/h2&gt;
+&lt;h3 id=&#34;api&#34;&gt;API&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api.jpg&#34;
 	width=&#34;1153&#34;
 	height=&#34;586&#34;
