@@ -64,24 +64,9 @@
 &lt;h2 id=&#34;about-me&#34;&gt;About ME&lt;/h2&gt;
 &lt;p&gt;Hi, nice to meet you. I’m Felix. I spend my days tapping keyboards and Googling. I use Stack Overflow like Tinder to find soul mates who faced the same programming problems as I do.&lt;/p&gt;
 &lt;p&gt;I enjoy engineering, designing and learning all sorts of new knowledge. In the past years, I have been lucky enough to work alongside amazing teams of talented people. My goal is to create products that can put a smile on millions and influence billions. So if you are working on something cool, also aiming to reshape the world, feel free to reach me out~&lt;/p&gt;
-&lt;h2 id=&#34;about-coding--crafting-stuff&#34;&gt;About Coding &amp;amp; Crafting stuff&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6.jpg&#34;
-	width=&#34;578&#34;
-	height=&#34;960&#34;
-	srcset=&#34;https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;AMC - Breaking Bad&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;60&#34;
-		data-flex-basis=&#34;144px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;interest&#34;&gt;Interest&lt;/h2&gt;
+&lt;h2 id=&#34;my-interest&#34;&gt;My Interest&lt;/h2&gt;
 &lt;p&gt;Aside from coding, I like thinking deep philosophical questions which don&amp;rsquo;t seem to have any practical usage (But you know that&amp;rsquo;s the fun part :D ). I also enjoy drawing, designing, reading all sorts of books, watching documentaries, learning about history &amp;amp; psychology, messing with computer hardware, plastic models and so on.&lt;/p&gt;
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;h2 id=&#34;my-skills&#34;&gt;My skills&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -90,6 +75,10 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Design&lt;/td&gt;
+&lt;td&gt;Figma, Adobe XD, Photoshop, InDesign, After Effect, Procreate, FCX&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Coding Languages&lt;/td&gt;
 &lt;td&gt;C++, Java, Python, GO, C#, Ruby, R, VB.net &amp;hellip; and More&lt;/td&gt;
@@ -111,10 +100,6 @@
 &lt;td&gt;GCP (BigQuery, Dataproc, CloudSQL, Pub/Sub)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Design&lt;/td&gt;
-&lt;td&gt;Photoshop, InDesign, After Effect, Procreate, FCX&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;Mobile Dev&lt;/td&gt;
 &lt;td&gt;iOS (Swift, SwiftUI, UIKit), Flutter&lt;/td&gt;
 &lt;/tr&gt;
@@ -134,6 +119,10 @@
 &lt;td&gt;Build/Deploy Tools&lt;/td&gt;
 &lt;td&gt;Jenkins, Airflow&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Game development&lt;/td&gt;
+&lt;td&gt;Unity, C#&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ul&gt;
@@ -144,6 +133,21 @@
 &lt;h2 id=&#34;contact&#34;&gt;CONTACT&lt;/h2&gt;
 &lt;p&gt;Feel free to reach me out via Linkedin for collaboration or other discussions!&lt;br&gt;
 ٩(◦`꒳´◦)۶&lt;/p&gt;
+&lt;h2 id=&#34;about-coding--crafting-stuff&#34;&gt;About Coding &amp;amp; Crafting stuff&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6.jpg&#34;
+	width=&#34;578&#34;
+	height=&#34;960&#34;
+	srcset=&#34;https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/about-me/e01b011b8ba4feadabb6b7b426091fd6_hud8791f049e336bd0788bbc23c44f0b40_43129_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;AMC - Breaking Bad&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;60&#34;
+		data-flex-basis=&#34;144px&#34;
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
