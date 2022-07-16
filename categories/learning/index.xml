@@ -6,580 +6,7 @@
         <description>Recent content in learning on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/learning/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Notes on Cloud (GCloud)</title>
-        <link>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</link>
-        <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</guid>
-        <description>&lt;p&gt;Some past notes on learning GCloud&lt;/p&gt;
-&lt;h2 id=&#34;cloud-in-business&#34;&gt;Cloud in business &lt;/h2&gt;
-&lt;h2 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Why? &lt;/li&gt;
-&lt;li&gt;3 rules 
-&lt;ul&gt;
-&lt;li&gt;Focusing on user &lt;/li&gt;
-&lt;li&gt;10x thinking &lt;/li&gt;
-&lt;li&gt;Empowered to innovate &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Example 
-&lt;ul&gt;
-&lt;li&gt;Cold call insurance company employee 
-&lt;ul&gt;
-&lt;li&gt;Why? 
-&lt;ul&gt;
-&lt;li&gt;Enable people to live their lives feeling financially secure and optimally prepared for lie&amp;rsquo;s inherent ups and downs &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;3 rules 
-&lt;ul&gt;
-&lt;li&gt;Focusing on user 
-&lt;ul&gt;
-&lt;li&gt;Discovering user&amp;rsquo;s real needs and intent &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;10x thinking &lt;/li&gt;
-&lt;li&gt;Empowered to innovate &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;concepts-for-companies&#34;&gt;Concepts for companies&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Your organization&amp;rsquo;s mission &lt;/li&gt;
-&lt;li&gt;Who is your user &lt;/li&gt;
-&lt;li&gt;What are some ways you&amp;rsquo;re focusing on their expectations and meeting those expectations in your day-to-day activities &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;other-considerations&#34;&gt;Other considerations&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Security 
-&lt;ul&gt;
-&lt;li&gt;How&amp;rsquo;s been collected &lt;/li&gt;
-&lt;li&gt;How&amp;rsquo;s been stored &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Privacy &lt;/li&gt;
-&lt;li&gt;Compliance &lt;/li&gt;
-&lt;li&gt;Ethics &lt;/li&gt;
-&lt;li&gt;Human bias 
-&lt;ul&gt;
-&lt;li&gt;Important to incorporate strategy to eliminate unconcious biases &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
-&lt;h3 id=&#34;data-sets&#34;&gt;Data sets&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;User data &lt;/li&gt;
-&lt;li&gt;Corporate data &lt;/li&gt;
-&lt;li&gt;Industry data &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;data-types&#34;&gt;Data types&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Structured data &lt;/li&gt;
-&lt;li&gt;Unstructured data 
-&lt;ul&gt;
-&lt;li&gt;Unorganized &lt;/li&gt;
-&lt;li&gt;Qualitatives &lt;/li&gt;
-&lt;li&gt;Cannot fit into spreedsheets &lt;/li&gt;
-&lt;li&gt;Examples 
-&lt;ul&gt;
-&lt;li&gt;Word processing documents &lt;/li&gt;
-&lt;li&gt;Audio files &lt;/li&gt;
-&lt;li&gt;Images &lt;/li&gt;
-&lt;li&gt;Videos &lt;/li&gt;
-&lt;li&gt;BLOB &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Usage 
-&lt;ul&gt;
-&lt;li&gt;Cloud computing through API can structurlize unconstructure data 
-&lt;ul&gt;
-&lt;li&gt;Example 
-&lt;ul&gt;
-&lt;li&gt;Bloomberg uses Google Translate API to translate analysis reports from journelists all around the world into local language &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-consolidation-and-analytics&#34;&gt;Data Consolidation and Analytics &lt;/h2&gt;
-&lt;h3 id=&#34;traditional-vs-cloud&#34;&gt;Traditional vs Cloud &lt;/h3&gt;
-&lt;p&gt;Traditional (Storing in premises) &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Responsible for IT infrastucture &lt;/li&gt;
-&lt;li&gt;Responsible for maintaining and expanding capacity &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;data-management&#34;&gt;Data management &lt;/h3&gt;
-&lt;p&gt;Priorities: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Data integrity 
-&lt;ul&gt;
-&lt;li&gt;Rollback integrity &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Data scale 
-&lt;ul&gt;
-&lt;li&gt;Scalibility 
- 
-Services &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Cloud SQL &lt;/li&gt;
-&lt;li&gt;Cloud spanner 
- 
-Cloud storage solutions: &lt;/li&gt;
-&lt;li&gt;Databases 
-&lt;ul&gt;
-&lt;li&gt;Ingest large amounts of data from many different sources efficiently &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Data warehouse 
-&lt;ul&gt;
-&lt;li&gt;Enable rapid analysis of large and multidimensional datasets &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Data lakes 
-&lt;ul&gt;
-&lt;li&gt;Can store structured, semi-structured, and unstructured data 
- 
-Benefits: &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Any amount of data &lt;/li&gt;
-&lt;li&gt;Low latencey &lt;/li&gt;
-&lt;li&gt;Accessible from anywhere 
- 
-Storage types: &lt;/li&gt;
-&lt;li&gt;Nearline storage 
-&lt;ul&gt;
-&lt;li&gt;Rarely access &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Coldline storage 
-&lt;ul&gt;
-&lt;li&gt;Once per few weeks &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Archive 
-&lt;ul&gt;
-&lt;li&gt;At least once a year &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;business-intelligence-solutions&#34;&gt;Business intelligence solutions &lt;/h2&gt;
-&lt;p&gt;Challenge: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hard to identify the right business intelligence tools 
-Services: &lt;/li&gt;
-&lt;li&gt;Google Looker 
-&lt;ul&gt;
-&lt;li&gt;Makes it simple to describe your data and define business metrics &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;infrastructure-modernization&#34;&gt;Infrastructure modernization &lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Infrastructure as service &lt;/li&gt;
-&lt;li&gt;Outsourcing IT needs at infrastructure level &lt;/li&gt;
-&lt;li&gt;Platform as service &lt;/li&gt;
-&lt;li&gt;Don’t have to manage infrastructure and only pay for what you use 
- &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;technology&#34;&gt;Technology &lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Virtual machine 
-&lt;ul&gt;
-&lt;li&gt;Hypervisor (VMM) &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Serverless computing &lt;/li&gt;
-&lt;li&gt;Container &lt;/li&gt;
-&lt;li&gt;Cloud types 
-&lt;ul&gt;
-&lt;li&gt;Private cloud &lt;/li&gt;
-&lt;li&gt;Hybrid cloud &lt;/li&gt;
-&lt;li&gt;Multi cloud &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Bare Metal 
-&lt;ul&gt;
-&lt;li&gt;Bare Metal enables you to migrate specialized workloads to the cloud, while &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;maintaining your existing investments and architecture. This allows you access and integration with Google Cloud services with minimal latency. &lt;/li&gt;
-&lt;li&gt;Google Kubernets Engine (GKE) 
-&lt;ul&gt;
-&lt;li&gt;Provides managed environment for deploying, managing, and scaling containerized applications &lt;/li&gt;
-&lt;li&gt;Allows securely speed up app development streamline operations, and manage infrastructure &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Google app engine 
-&lt;ul&gt;
-&lt;li&gt;Cloud Run &lt;/li&gt;
-&lt;li&gt;Cloud Functions 
-&lt;ul&gt;
-&lt;li&gt;Scalable, pay-as-you-go functions as service to run code with zero server management 
- &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;five-patterns&#34;&gt;Five patterns &lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Move applications first then change them &lt;/li&gt;
-&lt;li&gt;Change applications first then move them &lt;/li&gt;
-&lt;li&gt;Invent in greenfield &lt;/li&gt;
-&lt;li&gt;Invent in brownfield 
-&lt;ul&gt;
-&lt;li&gt;Build new application (Cloud native) in cloud to replace legacy application &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Move applications without any changes &lt;/li&gt;
-&lt;li&gt;Microservice Architecture 
-&lt;ul&gt;
-&lt;li&gt;Reduces problems by separating large application into small 
-&lt;ul&gt;
-&lt;li&gt;Helps to determine where code needs to be changed &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;CI/CD 
-&lt;ul&gt;
-&lt;li&gt;Continuous intergration + Continuous deployment &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;api&#34;&gt;API&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api.jpg&#34;
-	width=&#34;1153&#34;
-	height=&#34;586&#34;
-	srcset=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api_hu3b423f3e50d05673006957c7d4e5d0b9_84751_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-cloud-gcloud/api_hu3b423f3e50d05673006957c7d4e5d0b9_84751_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Google Cloud API&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;196&#34;
-		data-flex-basis=&#34;472px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;financial-governance&#34;&gt;Financial Governance &lt;/h2&gt;
-&lt;p&gt;Three lens: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;People 
-&lt;ul&gt;
-&lt;li&gt;Cooperate and manage costs &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Process &lt;/li&gt;
-&lt;li&gt;Technology 
-&lt;ul&gt;
-&lt;li&gt;Google cloud 
-&lt;ul&gt;
-&lt;li&gt;Visibility 
-&lt;ul&gt;
-&lt;li&gt;Into predicted cloud costs 
-&lt;ul&gt;
-&lt;li&gt;Built-in reporting tools &lt;/li&gt;
-&lt;li&gt;Custom dashboards &lt;/li&gt;
-&lt;li&gt;Pricing calculator &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Accountability 
-&lt;ul&gt;
-&lt;li&gt;Define clear ownership for projects&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Control 
-&lt;ul&gt;
-&lt;li&gt;Set permissions in place to ensure only authorized individuals have power &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Intelligence 
-&lt;ul&gt;
-&lt;li&gt;Smart spending decisions &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-        </item>
-        <item>
-        <title>Notes on Java</title>
-        <link>https://felix-ku.github.io/p/notes-on-java/</link>
-        <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/p/notes-on-java/</guid>
-        <description>&lt;p&gt;Some past notes on JAVA&lt;/p&gt;
-&lt;h2 id=&#34;java-doc&#34;&gt;JAVA doc&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/** 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Title Method main 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Description This method handles the main process, demonstrates go() and initialize GUI. 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Param args Unused. 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Return Nothing. 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @update 2021-04-10      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;multi-threading&#34;&gt;Multi-threading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Putting a Thread to Sleep
-&lt;ul&gt;
-&lt;li&gt;Can be used to make threas take turns&lt;/li&gt;
-&lt;li&gt;sleep will force thread to leave running state and allow another thread to run&lt;/li&gt;
-&lt;li&gt;Sleeping thread will always go back to runnable state after wake up&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;concurrency-problem&#34;&gt;Concurrency problem&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;May occur when 2 or more threas have access to same object on the heap
-&lt;ul&gt;
-&lt;li&gt;race condition -&amp;gt; Possibly Data corruption&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;synchronization&#34;&gt;Synchronization&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;To solve concurrency problem
-&lt;ul&gt;
-&lt;li&gt;Making method &amp;ldquo;atomic&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Use keyword &amp;ldquo;synchronized&amp;rdquo; to modify a method so that only 1 thread at a time can access it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;synchronized&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;methodA&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(){&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// ...
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;To protect data, synchronize the methods that act on that data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;life-cycle-of-object&#34;&gt;Life cycle of object &lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Stack
-&lt;ul&gt;
-&lt;li&gt;Methods to be run &lt;/li&gt;
-&lt;li&gt;LIFO &lt;/li&gt;
-&lt;li&gt;Local Variable lives in Stack &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Heap 
-&lt;ul&gt;
-&lt;li&gt;All alive objects &lt;/li&gt;
-&lt;li&gt;Objects live in Heap &lt;/li&gt;
-&lt;li&gt;Instance Variable lives in Heap &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;alive-vs-in-scope&#34;&gt;Alive Vs. In scope &lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alive = Not destroyed &lt;/li&gt;
-&lt;li&gt;In scope = Within current running method &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;lifetime&#34;&gt;Lifetime: &lt;/h3&gt;
-&lt;p&gt;Instance variable &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Live and die with object 
-Object &lt;/li&gt;
-&lt;li&gt;Alive when live references exist &lt;/li&gt;
-&lt;li&gt;Destoryed when last live reference disappears &lt;/li&gt;
-&lt;li&gt;Destroyed when containing method completed &amp;amp; out of stack &lt;/li&gt;
-&lt;li&gt;Destroyed when Object = null; 
-Reference variable &lt;/li&gt;
-&lt;li&gt;Destroyed when Reference = null; &lt;/li&gt;
-&lt;li&gt;Call to super() must be first statement in constructor &lt;/li&gt;
-&lt;li&gt;A constructor can have either super() or this() &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;gui&#34;&gt;GUI&lt;/h2&gt;
-&lt;h3 id=&#34;frame-settings&#34;&gt;Frame settings&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;frame&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setDefaultCloseOperation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;JFrame&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;EXIT_ON_CLOSE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;frame&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setTitle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;A Simple Card Game&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;event-handling&#34;&gt;Event-Handling&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;ReplaceListener&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;implements&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ActionListener&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;actionPerformed&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ActionEvent&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;event&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}}&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;btn_rpcard1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;addActionListener&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ReplaceListener&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;());&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Listener for replace button
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;interface&#34;&gt;Interface&lt;/h2&gt;
-&lt;h3 id=&#34;creation&#34;&gt;Creation&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Pet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;abstract&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;play&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Interface methods are implicityly public &amp;amp; abstract 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Dog&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Canine&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;implements&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Pet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;modules&#34;&gt;Modules&lt;/h2&gt;
-&lt;h3 id=&#34;gui-1&#34;&gt;GUI&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;javax&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;swing&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;awt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;awt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;event&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;arraylist&#34;&gt;Arraylist&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;ArrayList&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;serialize&#34;&gt;Serialize&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;networking&#34;&gt;Networking&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;exceptions-handling&#34;&gt;Exception(s) handling&lt;/h2&gt;
-&lt;p&gt;Finally will always run even if try or catch has return() &lt;/p&gt;
-&lt;h3 id=&#34;ducking-exception&#34;&gt;Ducking exception&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Repeats until some method in the calling chain has try{} catch{} handling &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;catching-multiple-exceptions&#34;&gt;Catching multiple exceptions&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;try&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception1&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception2&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception3&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception4&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex4&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;other-notes--concepts&#34;&gt;Other notes &amp;amp; Concepts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Superclass of sub class should have constructor defined &lt;/li&gt;
-&lt;li&gt;Static variable = same value for all instance of same class 
- &lt;/li&gt;
-&lt;li&gt;Defind constant = static final double… 
- &lt;/li&gt;
-&lt;li&gt;super.roam() &amp;lt;- roam() in superclass is called 
- &lt;/li&gt;
-&lt;li&gt;IS-A vs HAS-A 
- &lt;/li&gt;
-&lt;li&gt;Abstract class -&amp;gt; To prevent a class from ever being instantiated  &lt;/li&gt;
-&lt;li&gt;Abstract method -&amp;gt; Method has to be overridden (Class with abstract method must be abstract class) &lt;/li&gt;
-&lt;li&gt;Abstract class can choose to implement (abstract) methods in any ways, but concrete class must implement all  
- &lt;/li&gt;
-&lt;li&gt;Polymorphism -&amp;gt; To allow reference type as superclass of the actual new object type &lt;/li&gt;
-&lt;li&gt;Override -&amp;gt; To have specialized operations for same method &lt;/li&gt;
-&lt;li&gt;Overload -&amp;gt; To have methods of same name but different arguments 
- &lt;/li&gt;
-&lt;li&gt;Final variable, method, class = uneditable, cannot override, cannot extend &lt;/li&gt;
-&lt;li&gt;Objects O override &lt;/li&gt;
-&lt;li&gt;Method X override &lt;/li&gt;
-&lt;li&gt;Method O Polymorphism &lt;/li&gt;
-&lt;li&gt;Variable X Polymorphism &lt;/li&gt;
-&lt;/ul&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/learning/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Notes on UX design</title>
         <link>https://felix-ku.github.io/p/notes-on-ux-design/</link>
         <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
@@ -1263,6 +690,321 @@ Other stacks (Use up all available spaces)&lt;/p&gt;
 &lt;/div&gt;</description>
         </item>
         <item>
+        <title>Notes on Cloud (GCloud)</title>
+        <link>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</link>
+        <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/p/notes-on-cloud-gcloud/</guid>
+        <description>&lt;p&gt;Some past notes on learning GCloud&lt;/p&gt;
+&lt;h2 id=&#34;cloud-in-business&#34;&gt;Cloud in business &lt;/h2&gt;
+&lt;h2 id=&#34;core-concepts&#34;&gt;Core concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Why? &lt;/li&gt;
+&lt;li&gt;3 rules 
+&lt;ul&gt;
+&lt;li&gt;Focusing on user &lt;/li&gt;
+&lt;li&gt;10x thinking &lt;/li&gt;
+&lt;li&gt;Empowered to innovate &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example 
+&lt;ul&gt;
+&lt;li&gt;Cold call insurance company employee 
+&lt;ul&gt;
+&lt;li&gt;Why? 
+&lt;ul&gt;
+&lt;li&gt;Enable people to live their lives feeling financially secure and optimally prepared for lie&amp;rsquo;s inherent ups and downs &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 rules 
+&lt;ul&gt;
+&lt;li&gt;Focusing on user 
+&lt;ul&gt;
+&lt;li&gt;Discovering user&amp;rsquo;s real needs and intent &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;10x thinking &lt;/li&gt;
+&lt;li&gt;Empowered to innovate &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;concepts-for-companies&#34;&gt;Concepts for companies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Your organization&amp;rsquo;s mission &lt;/li&gt;
+&lt;li&gt;Who is your user &lt;/li&gt;
+&lt;li&gt;What are some ways you&amp;rsquo;re focusing on their expectations and meeting those expectations in your day-to-day activities &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other-considerations&#34;&gt;Other considerations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Security 
+&lt;ul&gt;
+&lt;li&gt;How&amp;rsquo;s been collected &lt;/li&gt;
+&lt;li&gt;How&amp;rsquo;s been stored &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Privacy &lt;/li&gt;
+&lt;li&gt;Compliance &lt;/li&gt;
+&lt;li&gt;Ethics &lt;/li&gt;
+&lt;li&gt;Human bias 
+&lt;ul&gt;
+&lt;li&gt;Important to incorporate strategy to eliminate unconcious biases &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;h3 id=&#34;data-sets&#34;&gt;Data sets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;User data &lt;/li&gt;
+&lt;li&gt;Corporate data &lt;/li&gt;
+&lt;li&gt;Industry data &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-types&#34;&gt;Data types&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Structured data &lt;/li&gt;
+&lt;li&gt;Unstructured data 
+&lt;ul&gt;
+&lt;li&gt;Unorganized &lt;/li&gt;
+&lt;li&gt;Qualitatives &lt;/li&gt;
+&lt;li&gt;Cannot fit into spreedsheets &lt;/li&gt;
+&lt;li&gt;Examples 
+&lt;ul&gt;
+&lt;li&gt;Word processing documents &lt;/li&gt;
+&lt;li&gt;Audio files &lt;/li&gt;
+&lt;li&gt;Images &lt;/li&gt;
+&lt;li&gt;Videos &lt;/li&gt;
+&lt;li&gt;BLOB &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage 
+&lt;ul&gt;
+&lt;li&gt;Cloud computing through API can structurlize unconstructure data 
+&lt;ul&gt;
+&lt;li&gt;Example 
+&lt;ul&gt;
+&lt;li&gt;Bloomberg uses Google Translate API to translate analysis reports from journelists all around the world into local language &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-consolidation-and-analytics&#34;&gt;Data Consolidation and Analytics &lt;/h2&gt;
+&lt;h3 id=&#34;traditional-vs-cloud&#34;&gt;Traditional vs Cloud &lt;/h3&gt;
+&lt;p&gt;Traditional (Storing in premises) &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsible for IT infrastucture &lt;/li&gt;
+&lt;li&gt;Responsible for maintaining and expanding capacity &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-management&#34;&gt;Data management &lt;/h3&gt;
+&lt;p&gt;Priorities: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data integrity 
+&lt;ul&gt;
+&lt;li&gt;Rollback integrity &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data scale 
+&lt;ul&gt;
+&lt;li&gt;Scalibility 
+ 
+Services &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud SQL &lt;/li&gt;
+&lt;li&gt;Cloud spanner 
+ 
+Cloud storage solutions: &lt;/li&gt;
+&lt;li&gt;Databases 
+&lt;ul&gt;
+&lt;li&gt;Ingest large amounts of data from many different sources efficiently &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data warehouse 
+&lt;ul&gt;
+&lt;li&gt;Enable rapid analysis of large and multidimensional datasets &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data lakes 
+&lt;ul&gt;
+&lt;li&gt;Can store structured, semi-structured, and unstructured data 
+ 
+Benefits: &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Any amount of data &lt;/li&gt;
+&lt;li&gt;Low latencey &lt;/li&gt;
+&lt;li&gt;Accessible from anywhere 
+ 
+Storage types: &lt;/li&gt;
+&lt;li&gt;Nearline storage 
+&lt;ul&gt;
+&lt;li&gt;Rarely access &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Coldline storage 
+&lt;ul&gt;
+&lt;li&gt;Once per few weeks &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Archive 
+&lt;ul&gt;
+&lt;li&gt;At least once a year &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;business-intelligence-solutions&#34;&gt;Business intelligence solutions &lt;/h2&gt;
+&lt;p&gt;Challenge: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hard to identify the right business intelligence tools 
+Services: &lt;/li&gt;
+&lt;li&gt;Google Looker 
+&lt;ul&gt;
+&lt;li&gt;Makes it simple to describe your data and define business metrics &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infrastructure-modernization&#34;&gt;Infrastructure modernization &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Infrastructure as service &lt;/li&gt;
+&lt;li&gt;Outsourcing IT needs at infrastructure level &lt;/li&gt;
+&lt;li&gt;Platform as service &lt;/li&gt;
+&lt;li&gt;Don’t have to manage infrastructure and only pay for what you use 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;technology&#34;&gt;Technology &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Virtual machine 
+&lt;ul&gt;
+&lt;li&gt;Hypervisor (VMM) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Serverless computing &lt;/li&gt;
+&lt;li&gt;Container &lt;/li&gt;
+&lt;li&gt;Cloud types 
+&lt;ul&gt;
+&lt;li&gt;Private cloud &lt;/li&gt;
+&lt;li&gt;Hybrid cloud &lt;/li&gt;
+&lt;li&gt;Multi cloud &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bare Metal 
+&lt;ul&gt;
+&lt;li&gt;Bare Metal enables you to migrate specialized workloads to the cloud, while &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;maintaining your existing investments and architecture. This allows you access and integration with Google Cloud services with minimal latency. &lt;/li&gt;
+&lt;li&gt;Google Kubernets Engine (GKE) 
+&lt;ul&gt;
+&lt;li&gt;Provides managed environment for deploying, managing, and scaling containerized applications &lt;/li&gt;
+&lt;li&gt;Allows securely speed up app development streamline operations, and manage infrastructure &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Google app engine 
+&lt;ul&gt;
+&lt;li&gt;Cloud Run &lt;/li&gt;
+&lt;li&gt;Cloud Functions 
+&lt;ul&gt;
+&lt;li&gt;Scalable, pay-as-you-go functions as service to run code with zero server management 
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;five-patterns&#34;&gt;Five patterns &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Move applications first then change them &lt;/li&gt;
+&lt;li&gt;Change applications first then move them &lt;/li&gt;
+&lt;li&gt;Invent in greenfield &lt;/li&gt;
+&lt;li&gt;Invent in brownfield 
+&lt;ul&gt;
+&lt;li&gt;Build new application (Cloud native) in cloud to replace legacy application &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Move applications without any changes &lt;/li&gt;
+&lt;li&gt;Microservice Architecture 
+&lt;ul&gt;
+&lt;li&gt;Reduces problems by separating large application into small 
+&lt;ul&gt;
+&lt;li&gt;Helps to determine where code needs to be changed &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CI/CD 
+&lt;ul&gt;
+&lt;li&gt;Continuous intergration + Continuous deployment &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;api&#34;&gt;API&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api.jpg&#34;
+	width=&#34;1153&#34;
+	height=&#34;586&#34;
+	srcset=&#34;https://felix-ku.github.io/p/notes-on-cloud-gcloud/api_hu3b423f3e50d05673006957c7d4e5d0b9_84751_480x0_resize_q75_box.jpg 480w, https://felix-ku.github.io/p/notes-on-cloud-gcloud/api_hu3b423f3e50d05673006957c7d4e5d0b9_84751_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Google Cloud API&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;472px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;financial-governance&#34;&gt;Financial Governance &lt;/h2&gt;
+&lt;p&gt;Three lens: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;People 
+&lt;ul&gt;
+&lt;li&gt;Cooperate and manage costs &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Process &lt;/li&gt;
+&lt;li&gt;Technology 
+&lt;ul&gt;
+&lt;li&gt;Google cloud 
+&lt;ul&gt;
+&lt;li&gt;Visibility 
+&lt;ul&gt;
+&lt;li&gt;Into predicted cloud costs 
+&lt;ul&gt;
+&lt;li&gt;Built-in reporting tools &lt;/li&gt;
+&lt;li&gt;Custom dashboards &lt;/li&gt;
+&lt;li&gt;Pricing calculator &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Accountability 
+&lt;ul&gt;
+&lt;li&gt;Define clear ownership for projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Control 
+&lt;ul&gt;
+&lt;li&gt;Set permissions in place to ensure only authorized individuals have power &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Intelligence 
+&lt;ul&gt;
+&lt;li&gt;Smart spending decisions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Product innovation insights</title>
         <link>https://felix-ku.github.io/p/product-innovation-insights/</link>
         <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -1443,6 +1185,264 @@ Other stacks (Use up all available spaces)&lt;/p&gt;
 &lt;li&gt;Define product requirements and specs accordingly to consumers&amp;rsquo; biggest needs&lt;/li&gt;
 &lt;li&gt;Thorough understanding of market and needs&lt;/li&gt;
 &lt;li&gt;Iterative design process for optimum product design&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Notes on Java</title>
+        <link>https://felix-ku.github.io/p/notes-on-java/</link>
+        <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/p/notes-on-java/</guid>
+        <description>&lt;p&gt;Some past notes on JAVA&lt;/p&gt;
+&lt;h2 id=&#34;java-doc&#34;&gt;JAVA doc&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/** 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Title Method main 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Description This method handles the main process, demonstrates go() and initialize GUI. 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Param args Unused. 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @Return Nothing. 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     * @update 2021-04-10      
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;multi-threading&#34;&gt;Multi-threading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Putting a Thread to Sleep
+&lt;ul&gt;
+&lt;li&gt;Can be used to make threas take turns&lt;/li&gt;
+&lt;li&gt;sleep will force thread to leave running state and allow another thread to run&lt;/li&gt;
+&lt;li&gt;Sleeping thread will always go back to runnable state after wake up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;concurrency-problem&#34;&gt;Concurrency problem&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;May occur when 2 or more threas have access to same object on the heap
+&lt;ul&gt;
+&lt;li&gt;race condition -&amp;gt; Possibly Data corruption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;synchronization&#34;&gt;Synchronization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To solve concurrency problem
+&lt;ul&gt;
+&lt;li&gt;Making method &amp;ldquo;atomic&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Use keyword &amp;ldquo;synchronized&amp;rdquo; to modify a method so that only 1 thread at a time can access it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;synchronized&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;methodA&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To protect data, synchronize the methods that act on that data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;life-cycle-of-object&#34;&gt;Life cycle of object &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Stack
+&lt;ul&gt;
+&lt;li&gt;Methods to be run &lt;/li&gt;
+&lt;li&gt;LIFO &lt;/li&gt;
+&lt;li&gt;Local Variable lives in Stack &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Heap 
+&lt;ul&gt;
+&lt;li&gt;All alive objects &lt;/li&gt;
+&lt;li&gt;Objects live in Heap &lt;/li&gt;
+&lt;li&gt;Instance Variable lives in Heap &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;alive-vs-in-scope&#34;&gt;Alive Vs. In scope &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alive = Not destroyed &lt;/li&gt;
+&lt;li&gt;In scope = Within current running method &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lifetime&#34;&gt;Lifetime: &lt;/h3&gt;
+&lt;p&gt;Instance variable &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Live and die with object 
+Object &lt;/li&gt;
+&lt;li&gt;Alive when live references exist &lt;/li&gt;
+&lt;li&gt;Destoryed when last live reference disappears &lt;/li&gt;
+&lt;li&gt;Destroyed when containing method completed &amp;amp; out of stack &lt;/li&gt;
+&lt;li&gt;Destroyed when Object = null; 
+Reference variable &lt;/li&gt;
+&lt;li&gt;Destroyed when Reference = null; &lt;/li&gt;
+&lt;li&gt;Call to super() must be first statement in constructor &lt;/li&gt;
+&lt;li&gt;A constructor can have either super() or this() &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gui&#34;&gt;GUI&lt;/h2&gt;
+&lt;h3 id=&#34;frame-settings&#34;&gt;Frame settings&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;frame&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setDefaultCloseOperation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;JFrame&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;EXIT_ON_CLOSE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;frame&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setTitle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;A Simple Card Game&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;event-handling&#34;&gt;Event-Handling&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;ReplaceListener&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;implements&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ActionListener&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;actionPerformed&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ActionEvent&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;event&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;btn_rpcard1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;addActionListener&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ReplaceListener&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;());&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Listener for replace button
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;interface&#34;&gt;Interface&lt;/h2&gt;
+&lt;h3 id=&#34;creation&#34;&gt;Creation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Pet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;abstract&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;play&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Interface methods are implicityly public &amp;amp; abstract 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Dog&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Canine&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;implements&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Pet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;modules&#34;&gt;Modules&lt;/h2&gt;
+&lt;h3 id=&#34;gui-1&#34;&gt;GUI&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;javax&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;swing&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;awt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;awt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;event&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;arraylist&#34;&gt;Arraylist&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;ArrayList&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;serialize&#34;&gt;Serialize&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;networking&#34;&gt;Networking&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;java&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.*;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;exceptions-handling&#34;&gt;Exception(s) handling&lt;/h2&gt;
+&lt;p&gt;Finally will always run even if try or catch has return() &lt;/p&gt;
+&lt;h3 id=&#34;ducking-exception&#34;&gt;Ducking exception&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Repeats until some method in the calling chain has try{} catch{} handling &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;catching-multiple-exceptions&#34;&gt;Catching multiple exceptions&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;try&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception1&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception2&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception3&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Exception4&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ex4&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;other-notes--concepts&#34;&gt;Other notes &amp;amp; Concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Superclass of sub class should have constructor defined &lt;/li&gt;
+&lt;li&gt;Static variable = same value for all instance of same class 
+ &lt;/li&gt;
+&lt;li&gt;Defind constant = static final double… 
+ &lt;/li&gt;
+&lt;li&gt;super.roam() &amp;lt;- roam() in superclass is called 
+ &lt;/li&gt;
+&lt;li&gt;IS-A vs HAS-A 
+ &lt;/li&gt;
+&lt;li&gt;Abstract class -&amp;gt; To prevent a class from ever being instantiated  &lt;/li&gt;
+&lt;li&gt;Abstract method -&amp;gt; Method has to be overridden (Class with abstract method must be abstract class) &lt;/li&gt;
+&lt;li&gt;Abstract class can choose to implement (abstract) methods in any ways, but concrete class must implement all  
+ &lt;/li&gt;
+&lt;li&gt;Polymorphism -&amp;gt; To allow reference type as superclass of the actual new object type &lt;/li&gt;
+&lt;li&gt;Override -&amp;gt; To have specialized operations for same method &lt;/li&gt;
+&lt;li&gt;Overload -&amp;gt; To have methods of same name but different arguments 
+ &lt;/li&gt;
+&lt;li&gt;Final variable, method, class = uneditable, cannot override, cannot extend &lt;/li&gt;
+&lt;li&gt;Objects O override &lt;/li&gt;
+&lt;li&gt;Method X override &lt;/li&gt;
+&lt;li&gt;Method O Polymorphism &lt;/li&gt;
+&lt;li&gt;Variable X Polymorphism &lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         

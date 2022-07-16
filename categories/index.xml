@@ -6,29 +6,13 @@
         <description>Recent content in Categories on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Cloud</title>
-        <link>https://felix-ku.github.io/categories/cloud/</link>
-        <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/categories/cloud/</guid>
-        <description>&lt;img src="https://felix-ku.github.io/categories/cloud/cloud.jpg" alt="Featured image of post Cloud" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>learning</title>
         <link>https://felix-ku.github.io/categories/learning/</link>
-        <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/learning/</guid>
         <description>&lt;img src="https://felix-ku.github.io/categories/learning/2.jpg" alt="Featured image of post learning" /&gt;</description>
-        </item>
-        <item>
-        <title>Java</title>
-        <link>https://felix-ku.github.io/categories/java/</link>
-        <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/categories/java/</guid>
-        <description>&lt;img src="https://felix-ku.github.io/categories/java/cat-java.jpg" alt="Featured image of post Java" /&gt;</description>
         </item>
         <item>
         <title>UX</title>
@@ -71,12 +55,28 @@
         <description>&lt;img src="https://felix-ku.github.io/categories/language/cat-lang.jpg" alt="Featured image of post Language" /&gt;</description>
         </item>
         <item>
+        <title>Cloud</title>
+        <link>https://felix-ku.github.io/categories/cloud/</link>
+        <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/cloud/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/cloud/cloud.jpg" alt="Featured image of post Cloud" /&gt;</description>
+        </item>
+        <item>
         <title>Product</title>
         <link>https://felix-ku.github.io/categories/product/</link>
         <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/product/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>https://felix-ku.github.io/categories/java/</link>
+        <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/java/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/java/cat-java.jpg" alt="Featured image of post Java" /&gt;</description>
         </item>
         <item>
         <title>syntax</title>

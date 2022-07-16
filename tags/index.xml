@@ -6,23 +6,7 @@
         <description>Recent content in Tags on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Cloud</title>
-        <link>https://felix-ku.github.io/tags/cloud/</link>
-        <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/tags/cloud/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>JAVA</title>
-        <link>https://felix-ku.github.io/tags/java/</link>
-        <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/tags/java/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>UX</title>
         <link>https://felix-ku.github.io/tags/ux/</link>
         <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
@@ -55,11 +39,27 @@
         <description></description>
         </item>
         <item>
+        <title>Cloud</title>
+        <link>https://felix-ku.github.io/tags/cloud/</link>
+        <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/tags/cloud/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Product innovation</title>
         <link>https://felix-ku.github.io/tags/product-innovation/</link>
         <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/tags/product-innovation/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JAVA</title>
+        <link>https://felix-ku.github.io/tags/java/</link>
+        <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/tags/java/</guid>
         <description></description>
         </item>
         <item>
