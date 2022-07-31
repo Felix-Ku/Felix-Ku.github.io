@@ -6,7 +6,193 @@
         <description>Recent content in Posts on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 24 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Responsive design testing</title>
+        <link>https://felix-ku.github.io/p/responsive-design-testing/</link>
+        <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/p/responsive-design-testing/</guid>
+        <description>&lt;p&gt;Notes on responsive design testing&lt;/p&gt;
+&lt;h2 id=&#34;testing-your-responsive-design&#34;&gt;Testing your responsive design&lt;/h2&gt;
+&lt;p&gt;With the built-in tools in Safari &amp;amp; Chrome, you can test your website&amp;rsquo;s responsive design and preview its effects on different device.
+Apart from the common aspect ratios such as 16:9 (For desktop/non-Apple tablets), 4:3 (iPad), ~20:9 (iPhone), some new aspect ratios for foldable phones could also take into consideration when coding your responsive design.&lt;/p&gt;
+&lt;h2 id=&#34;testing-responsive-design-on-chrome&#34;&gt;Testing Responsive Design on Chrome&lt;/h2&gt;
+&lt;p&gt;To test your design using Chrome you may simply hit F12 or right click anywhere on your webpage and hit inspect.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/img1.png&#34;
+	width=&#34;1283&#34;
+	height=&#34;910&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/img1_huf3572309ba7f321f6cd58be9c1685d4c_145804_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/img1_huf3572309ba7f321f6cd58be9c1685d4c_145804_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;&amp;ldquo;Inspect Option in right-click menu&amp;rdquo;&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;338px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon beside the &amp;ldquo;Element&amp;rdquo; text label&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/2.png&#34;
+	width=&#34;404&#34;
+	height=&#34;197&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/2_hu1bb9fba7eb9ae78d98a39c8131defa93_33133_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/2_hu1bb9fba7eb9ae78d98a39c8131defa93_33133_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Click icon&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;492px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it! You may now test out your design and choose the target device in the upper menu&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/3.png&#34;
+	width=&#34;1276&#34;
+	height=&#34;910&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/3_hu30e2bea467e1a51586f5586a0bba0e17_294569_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/3_hu30e2bea467e1a51586f5586a0bba0e17_294569_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Choose your target device&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;336px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;You may also add custom device for special aspect ratio&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/4.png&#34;
+	width=&#34;1289&#34;
+	height=&#34;910&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/4_hu95fc628e0ef9bc53fb16d433c67d2b4e_128357_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/4_hu95fc628e0ef9bc53fb16d433c67d2b4e_128357_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Add custom device&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;testing-responsive-design-on-safari&#34;&gt;Testing Responsive Design on Safari&lt;/h2&gt;
+&lt;p&gt;Testing on Safari is as simple as on Chrome with just extra few steps&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/5.png&#34;
+	width=&#34;317&#34;
+	height=&#34;157&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/5_huf9ad8163f80f10372720647ac1d3a522_44353_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/5_huf9ad8163f80f10372720647ac1d3a522_44353_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1. Open Safari and open Preference&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;201&#34;
+		data-flex-basis=&#34;484px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/6.png&#34;
+	width=&#34;762&#34;
+	height=&#34;436&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/6_hu9624ef9e778279f974be568e048b6b1d_80392_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/6_hu9624ef9e778279f974be568e048b6b1d_80392_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;2. Navigate to the &amp;ldquo;Advance&amp;rdquo; tab&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;174&#34;
+		data-flex-basis=&#34;419px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/7.png&#34;
+	width=&#34;376&#34;
+	height=&#34;66&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/7_hu6a74100a662778157660452f7bd49a56_12178_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/7_hu6a74100a662778157660452f7bd49a56_12178_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;3. Enable the bottom option for &amp;ldquo;Developer&amp;rdquo; tab&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;569&#34;
+		data-flex-basis=&#34;1367px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/8.png&#34;
+	width=&#34;313&#34;
+	height=&#34;278&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/8_hu70a5dc87fea95849f16395a353c53d20_64878_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/8_hu70a5dc87fea95849f16395a353c53d20_64878_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;4. Back to your webpage and navigate to the new &amp;ldquo;Developer&amp;rdquo; tab to enter &amp;ldquo;Responsive Design Mode&amp;rdquo;&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/9.png&#34;
+	width=&#34;930&#34;
+	height=&#34;1034&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/9_hu4168cd092daaa280e7ef06dd454b388b_122792_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/9_hu4168cd092daaa280e7ef06dd454b388b_122792_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;5. You may now play around with your website with different device settings&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;89&#34;
+		data-flex-basis=&#34;215px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/10.png&#34;
+	width=&#34;674&#34;
+	height=&#34;957&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/10_hufe56c5b5b77f77e507dba09cbd77fc85_112061_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/10_hufe56c5b5b77f77e507dba09cbd77fc85_112061_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Extra 1. Click on the same icon for iPads to preview your website in multi-task views&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/11.png&#34;
+	width=&#34;809&#34;
+	height=&#34;600&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/11_hu70ce5d99da5790ab5cb88e8b85c60a7b_64634_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/11_hu70ce5d99da5790ab5cb88e8b85c60a7b_64634_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Extra 2. Click on the same iPhone icon to switch between landscape and portrait views&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;134&#34;
+		data-flex-basis=&#34;323px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://felix-ku.github.io/p/responsive-design-testing/12.png&#34;
+	width=&#34;857&#34;
+	height=&#34;597&#34;
+	srcset=&#34;https://felix-ku.github.io/p/responsive-design-testing/12_hue3d93254c92223654208decf46d0dfa5_72385_480x0_resize_box_3.png 480w, https://felix-ku.github.io/p/responsive-design-testing/12_hue3d93254c92223654208decf46d0dfa5_72385_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Extra 3. Use these buttons to adjust your preview screen size freely&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Javascript &amp; CSS notes</title>
         <link>https://felix-ku.github.io/p/javascript-css-notes/</link>
         <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
@@ -74,7 +260,7 @@ a. e.g. transform: translateY(-65px); -&amp;gt; (0px)&lt;/li&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;activeNav&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;.navigation.active&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;activeNav&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Check if the outside element exists
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nx&#34;&gt;activeNav&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;c1&#34;&gt;// Return if clicking the menu element instead
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;c1&#34;&gt;// Make sure clicking the menu element won&amp;#39;t cause quitting
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;target&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!==&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;currentTarget&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;navigation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;classList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;remove&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;active&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;

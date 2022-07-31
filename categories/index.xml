@@ -6,21 +6,29 @@
         <description>Recent content in Categories on Stellaris</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 24 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felix-ku.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>learning</title>
+        <link>https://felix-ku.github.io/categories/learning/</link>
+        <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/learning/</guid>
+        <description>&lt;img src="https://felix-ku.github.io/categories/learning/2.jpg" alt="Featured image of post learning" /&gt;</description>
+        </item>
+        <item>
+        <title>Web</title>
+        <link>https://felix-ku.github.io/categories/web/</link>
+        <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://felix-ku.github.io/categories/web/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>JS</title>
         <link>https://felix-ku.github.io/categories/js/</link>
         <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://felix-ku.github.io/categories/js/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>learning</title>
-        <link>https://felix-ku.github.io/categories/learning/</link>
-        <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://felix-ku.github.io/categories/learning/</guid>
-        <description>&lt;img src="https://felix-ku.github.io/categories/learning/2.jpg" alt="Featured image of post learning" /&gt;</description>
         </item>
         <item>
         <title>UX</title>
